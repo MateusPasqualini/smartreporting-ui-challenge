@@ -14,4 +14,8 @@ public class GeneratePage {
         return PageFactory.initElements(TLDriverFactory.getTLDriver(), tClass);
     }
 
+    public static HomePage homePage() {
+        return instantiateNewPage(HomePage.class);
+    }
+
 }
