@@ -1,6 +1,6 @@
 # Smart Reporting UI automation challenge
 
-[comment]: <> (![fluxo de trabalho de exemplo]&#40;https://github.com/MateusPasqualini/spriteCloud-API-automation/workflows/Java%20CI%20with%20Maven/badge.svg&#41;)
+![fluxo de trabalho de exemplo](https://github.com/MateusPasqualini/smartreporting-ui-challenge/workflows/Java%20CI%20with%20Maven/badge.svg)
 
 ## Required software
 
