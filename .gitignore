@@ -1,0 +1,19 @@
+# Intellij
+.idea/**
+.idea/*.xml
+.idea/*
+*.iml
+*.iws
+
+# Maven
+log/
+target
+
+.idea/httpRequests
+.idea/sonarlint
+
+#allure
+.allure
+allure-results
+test-output
+allure-report
