@@ -18,7 +18,7 @@ public class OptionsManager {
         chromeOptions.addArguments("--window-size=1920,1080");
         chromeOptions.addArguments("--ignore-certificate-errors");
         chromeOptions.addArguments("--disable-popup-blocking");
-//        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--headless");
         chromeOptions.addArguments("--log-level=3");
         chromeOptions.addArguments("--silent");
         chromeOptions.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
@@ -29,7 +29,7 @@ public class OptionsManager {
     public static FirefoxOptions getFirefoxOptions() {
         FirefoxOptions geckoOptions = new FirefoxOptions();
         FirefoxProfile profile = new FirefoxProfile();
-//        geckoOptions.addArguments("--headless");
+        geckoOptions.addArguments("--headless");
         geckoOptions.setCapability("marionette", true);
         geckoOptions.setLogLevel(FirefoxDriverLogLevel.ERROR);
         geckoOptions.addArguments("-width=1920");

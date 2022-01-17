@@ -37,6 +37,7 @@ public class BasePage {
         return element;
     }
 
+
     public Select selectFromDropdown(WebElement element) {
         return new Select(element);
     }
@@ -44,7 +45,7 @@ public class BasePage {
     public Alert waitForAlertAvailability() {
         wait.until(ExpectedConditions.alertIsPresent());
         return driver.switchTo().alert();
-    }
+    }//*[contains(text(), "")]
 
     public List<WebElement> waitForClickabilityOf(List<WebElement> elements) {
         elements.forEach(element -> wait.until(driverLambda -> element.isDisplayed() && element.isEnabled()));

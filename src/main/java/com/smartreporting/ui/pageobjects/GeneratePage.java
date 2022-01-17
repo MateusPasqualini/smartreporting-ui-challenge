@@ -22,4 +22,7 @@ public class GeneratePage {
         return instantiateNewPage(AddComputerPage.class);
     }
 
+    public static EditPage editPage() {
+        return instantiateNewPage(EditPage.class);
+    }
 }
