@@ -19,7 +19,11 @@ public class HomePage extends BasePage {
 
     public HomePage goToHomePage() {
         driver.get(BASEURL);
-        waitForClickabilityOf(addNewComputerButton).click();
         return this;
+    }
+
+    public AddComputerPage goToAddComputer() {
+        waitForClickabilityOf(addNewComputerButton).click();
+        return GeneratePage.addComputerPage();
     }
 }

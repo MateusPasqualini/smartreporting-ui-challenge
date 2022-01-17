@@ -18,4 +18,8 @@ public class GeneratePage {
         return instantiateNewPage(HomePage.class);
     }
 
+    public static AddComputerPage addComputerPage() {
+        return instantiateNewPage(AddComputerPage.class);
+    }
+
 }
